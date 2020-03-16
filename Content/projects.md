@@ -37,7 +37,7 @@ max-width: 315px;
 
 The Golden Hurricast is completely free. Read my blog post about the project, the process of building the website, and more.
 
-<br /> <br /> <br />
+<br /> <br /> <br /> <br />
 
 ---
 
@@ -51,7 +51,7 @@ StreamScan is the easiest way for cord cutters to keep track of the channels tha
 
 *I am currently rebuilding StreamScan with Apple's new UI Framework, SwiftUI.*
 
-<br /> <br /> <br />
+<br /> <br /> <br /> <br />
 
 ---
 

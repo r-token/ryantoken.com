@@ -16,15 +16,12 @@ struct RyantokenCom: Website {
         // Add any site-specific metadata that you want to use here.
     }
 
-    // Update these properties to configure your website:
     var url = URL(string: "http://localhost:8000")!
     var name = "Ryan Token"
-    var description = "I'm a 💻 programmer, 📝 writer, 🎙️ podcaster, 🏈🏀 sports fan, and  enthusiast."
+    var description = "I'm a 💻 programmer, 🎙️ podcaster, 📝 writer, 🏈🏀 sports fan, and  enthusiast."
     var language: Language { .english }
     var imagePath: Path? { "ryan-circle.png" }
 }
 
 // This will generate your website using the built-in Foundation theme:
 try RyantokenCom().publish(withTheme: .foundation)
-
-
