@@ -19,7 +19,7 @@ struct Blog: Website {
     var name = "Ryan Token"
     var description = "I'm a 💻 programmer, 🎙️podcaster, 📝 writer, 🏈🏀 sports fan, and  enthusiast."
     var language: Language { .english }
-    var imagePath: Path? { "ryan-circle.png" }
+    var imagePath: Path? { "about_image/ryan-circle.png" }
     var socialMediaLinks: [SocialMediaLink] { [.location, .email, .linkedIn, .github, .twitter] }
 }
 
