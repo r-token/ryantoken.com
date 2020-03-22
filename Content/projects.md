@@ -3,6 +3,7 @@ date: 2020-03-14 20:43
 description: The projects I'm currently working on.
 title: Projects
 ---
+
 # Projects
 
 <br /> 
@@ -25,8 +26,8 @@ What I'm currently working on in my spare time.
 }
 </style>
 
-<div class="resizable-image">
-    <a href="https://thegoldenhurricast.com" target="_blank"><img src="../project_images/TGH-web.png" alt="The Golden Hurricast" style="border-radius: 5px;"/></a>
+<div>
+<a href="https://thegoldenhurricast.com" target="_blank"><img src="../project_images/TGH-web.png" alt="The Golden Hurricast" style="border-radius: 5px; width: 100%;"/></a>
 </div>
 
 <p>
@@ -63,14 +64,14 @@ StreamScan is the easiest way for cord cutters to keep track of the channels tha
 
 <br />
 
-<div>
-<a href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../project_images/catchup-tipjar.png" alt="CatchUp - Tip Jar" style="border-radius: 5px; margin-right: 15px; width:185px;"/></a>
+<div class="resizable-image>
+<a href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../project_images/catchup-tipjar.png" alt="CatchUp - Tip Jar" style="border-radius: 5px; border: 1px solid lightgrey; margin-right: 15px; width:185px;"/></a>
 
-<a href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../project_images/catchup-home.png" alt="CatchUp - Home" style="border-radius: 5px; margin-right: 15px; width:185px;"/></a>
+<a href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../project_images/catchup-home.png" alt="CatchUp - Home" style="border-radius: 5px; border: 1px solid lightgrey; margin-right: 15px; width:185px;"/></a>
 
-<a href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../project_images/catchup-details.png" alt="CatchUp - Details" style="border-radius: 5px; margin-right: 15px; width:185px;"/></a>
+<a href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../project_images/catchup-details.png" alt="CatchUp - Details" style="border-radius: 5px; border: 1px solid lightgrey; margin-right: 15px; width:185px;"/></a>
 
-<a href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../project_images/catchup-preference.png" alt="CatchUp - Preference" style="border-radius: 5px; margin-right: 15px; width:185px;"/></a>
+<a href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../project_images/catchup-preference.png" alt="CatchUp - Preference" style="border-radius: 5px; border: 1px solid lightgrey; margin-right: 15px; width:185px;"/></a>
 </div>
 
 <br />

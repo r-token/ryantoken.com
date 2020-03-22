@@ -20,11 +20,11 @@ My latest projects include <a href="https://thegoldenhurricast.com" target="_bla
 <br />
 
 <div>
-    <a href="https://thegoldenhurricast.com" target="_blank"><img src="../about_images/TGH-icon.png" alt="The Golden Hurricast" style="border-radius: 5px; margin-right: 10px; width:260px;"/></a>
+    <a href="https://thegoldenhurricast.com" target="_blank"><img src="../about_images/TGH-icon.png" alt="The Golden Hurricast" style="border-radius: 5px; border: 1px solid lightgrey; margin-right: 10px; width:250px;"/></a>
 
-    <a href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../about_images/catchup-icon.png" alt="CatchUp" style="border-radius: 5px; margin-right: 10px; width:260px;"/></a>
+    <a href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../about_images/catchup-icon.png" alt="CatchUp" style="border-radius: 5px; margin-right: 10px; width:250px;"/></a>
 
-    <img src="../about_images/streamscan-icon.png" alt="StreamScan" style="border-radius: 5px; width:260px;"/>
+    <img src="../about_images/streamscan-icon.png" alt="StreamScan" style="border-radius: 5px;  width:250px;"/>
 </div>
 
 <br />
