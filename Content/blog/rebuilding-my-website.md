@@ -1,6 +1,6 @@
 ---
 date: 2020-03-21 22:04
-title: Rebuilding my Website
+title: Rebuilding My Website
 description: Why I decided to rebuild ryantoken.com from the ground up, and how I did it with Swift (and without JavaScript)
 tags: Swift, Publish, Web, ryantoken.com
 ---
