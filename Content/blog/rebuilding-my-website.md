@@ -142,7 +142,7 @@ The main Swift file to build a site with Publish is incredibly simple to underst
 
 <br />
 
-First, there's an enum called SectionID. This is where you describe what sections your website will have. Mine are the four main tabs at the top of the page: <a href="https://ryantoken.com/blog" target="_blank">Blog</a>, <a href="https://ryantoken.com/projects" target="_blank">Projects</a>, <a href="https://ryantoken.com/meta" target="_blank">Meta</a>, and <a href="https://ryantoken.com/about" target="_blank">about</a>.
+First, there's an enum called SectionID. This is where you describe what sections your website will have. Mine are the four main tabs at the top of the page: <a href="https://ryantoken.com/blog" target="_blank">Blog</a>, <a href="https://ryantoken.com/projects" target="_blank">Projects</a>, <a href="https://ryantoken.com/meta" target="_blank">Meta</a>, and <a href="https://ryantoken.com/about" target="_blank">About</a>.
 
 Next, there's a struct called ItemMetadata. This is site-specific metadata which we’ll be able to use in a fully type-safe manner all throughout our publishing process. I don't have anything in there at this point because, honestly, I don't know what benefit it would give a site as simple as mine.
 
