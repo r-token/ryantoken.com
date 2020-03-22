@@ -35,7 +35,7 @@ What I'm currently working on in my spare time.
 
 <br />
 
-The Golden Hurricast is completely free. Read my blog post about the project, the process of building the website, and more.
+The Golden Hurricast is completely free. I'll soon have a blog post out about the project, the process of building the website/blog, and more.
 
 <br /> <br /> <br /> <br />
 
