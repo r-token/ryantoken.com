@@ -16,7 +16,7 @@ struct RyantokenCom: Website {
 
     var url = URL(string: "https://ryantoken.com")!
     var name = "Ryan Token"
-    var description = "I'm a 💻programmer, 🎙️podcaster, 📝writer, 🏈🏀sports fan, and  enthusiast."
+    var description = "I'm a 💻 programmer, 🎙️podcaster, 📝 writer, 🏈🏀 sports fan, and  enthusiast."
     var language: Language { .english }
     var imagePath: Path? { "ryan-circle.png" }
 }

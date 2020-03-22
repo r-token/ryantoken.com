@@ -18,15 +18,15 @@ What I'm currently working on in my spare time.
 ## The Golden Hurricast
 
 <style type="text/css">
-@media screen and (max-width: 900px) {
 .resizable-image img {
-max-width: 315px;
-}
+    text-align: center;
+    margin: auto;
+    width: 100%;
 }
 </style>
 
 <div class="resizable-image">
-    <a href="https://thegoldenhurricast.com" target="_blank"><img src="../project_images/TGH-web.png" alt="The Golden Hurricast" style="border-radius: 5px; width:800px;"/></a>
+    <a href="https://thegoldenhurricast.com" target="_blank"><img src="../project_images/TGH-web.png" alt="The Golden Hurricast" style="border-radius: 5px;"/></a>
 </div>
 
 <p>
