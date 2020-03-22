@@ -33,7 +33,7 @@ See for yourself:
     <img src="../../blog_images/websiteV1.JPG" alt="ryantoken.com v1" style="border-radius: 5px; width:800px;"/>
 </div>
 
-<br />
+<br /> <br />
 
 You don't get much more Bootstrapped than that.
 
@@ -47,6 +47,8 @@ What screams inexperience? Well, basically, everything else. Apparently CSS grad
 
 But hey, this was the first website I had built completely on my own, with no input from a boss, teachers, or fellow students. I was, and still am, proud that I built it. I learned a lot that I wouldn't have learned otherwise, it helped solidify my love of web development, and when all was said and done, there was a product out there that the world could see.
 
+<br />
+
 ## Iterations
 
 So that was 2015. Until this complete rebuild in March of 2020, it stayed *more or less* the same for the next several years. It did go through a couple of design refreshes over that time, though.
@@ -59,7 +61,7 @@ Notably:
     <img src="../../blog_images/websitev2.JPG" alt="ryantoken.com v2" style="border-radius: 5px; width:800px;"/>
 </div>
 
-<br />
+<br /> <br />
 
 And then:
 
@@ -69,7 +71,7 @@ And then:
     <img src="../../blog_images/websiteV3.png" alt="ryantoken.com v3" style="border-radius: 5px; width:800px;"/>
 </div>
 
-<br />
+<br /> <br />
 
 In the first of those two design refreshes, I got my feet wet with transparency, and added some dynamic functionality to the footer that let you navigate the website page-by-page from there.
 
@@ -81,13 +83,21 @@ However, after five years, it was time for a dramatic re-think of my website. Th
 
 The previous site was very much focused on me, my resume, and my portfolio of projects. My mindset has shifted dramatically since then, and so my website needed to shift dramatically with it.
 
+<br />
+
 ## A Full Redesign, Built with Swift
 
 I knew I wanted to completely recreate the website with modern developer tools and a system that would be easy and fun to iterate on. I did not know, however, what exactly I'd be using to kick this off. My goals for the website were the following:
 
-- First and foremost – a blogging component
-- A 'Projects' page to show what I've been working on recently
-- An 'About' page for, well, anything else
+<div>
+<ul style="margin-left: 25px">
+<li> First and foremost – a blogging component </li>
+
+<li> A 'Projects' page to show what I've been working on recently </li>
+
+<li> An 'About' page for, well, anything else </li>
+</ul>
+</div>
 
 <br />
 
