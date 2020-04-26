@@ -6,8 +6,8 @@ struct Blog: Website {
     enum SectionID: String, WebsiteSectionID {
         case blog
         case projects
+		case about
         case meta
-        case about
     }
 
     struct ItemMetadata: WebsiteItemMetadata {
@@ -47,7 +47,7 @@ private struct DimensionHTMLFactory<Site: Website>: HTMLFactory {
                         .class("description"),
                         .text(context.site.description)
                     ),
-                    .h2("Latest blog posts"),
+                    .h2("Latest Blog Posts"),
                     .itemList(
                         for: context.allItems(
                             sortedBy: \.date,
@@ -84,7 +84,7 @@ private struct DimensionHTMLFactory<Site: Website>: HTMLFactory {
             .head(for: item, on: context.site),
             .body(
                 .class("item-page"),
-                .header(for: context, selectedSection: item.sectionID),
+                .header(for: context, selectedSection: nil),
                 .wrapper(
                     .article(
                         .div(

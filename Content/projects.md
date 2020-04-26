@@ -34,7 +34,7 @@ What I'm currently working on in my spare time.
 
 <br />
 
-My first public-facing iOS app! First released in May of 2018, I've recently completely rewritten it from the ground up with SwiftUI.
+My first public-facing iOS app! First released in May of 2018, I rewrote it from the ground up in May of 2020 using <a href="https://developer.apple.com/xcode/swiftui/" target="_blank">SwiftUI</a>, <a href="https://developer.apple.com/documentation/coredata" target="_blank">Core Data</a>, and several other improvements.
 
 CatchUp helps you stay in touch with the people who matter most. You can set reminders for the contacts you choose, and get notified when it's time to CatchUp with them again.
 
@@ -44,7 +44,7 @@ CatchUp is free with no ads, but has a tip jar if you want to buy me a coffee â˜
 
 <a href="https://itunes.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:270px;height:80px;background-size:contain;"></a>
 
-<br /> <br /> <br />
+<br /> <br /> <br /> <br />
 
 ---
 

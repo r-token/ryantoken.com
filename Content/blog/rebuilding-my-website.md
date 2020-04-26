@@ -20,10 +20,6 @@ tags: Swift, Publish, Web
 
 <br />
 
-** Note: this website is still very much in development. The theme is pretty bare bones right now, and my plan is to add some more color and dimensionality to it soon.
-
-<br />
-
 ## Website V1: Bootstrap All the Things
 
 The summer of 2015 was the summer between my sophomore and junior years at the University of Tulsa. I had taken a few programming classes by that point, and was drawn to web development. To prove to myself that I knew my way around the basics, I wanted to build a personal website – I didn't have a plan for it, but I knew that I wanted it.
