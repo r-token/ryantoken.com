@@ -5,8 +5,8 @@ import Plot
 struct Blog: Website {
     enum SectionID: String, WebsiteSectionID {
         case blog
-        case projects
 		case about
+        case projects
         case meta
     }
 
@@ -19,7 +19,7 @@ struct Blog: Website {
     var name = "Ryan Token"
     var description = "I'm a 💻 programmer, 🎙️ podcaster, 📝 writer, 🏈🏀 sports fan, and  enthusiast."
     var language: Language { .english }
-    var imagePath: Path? { "Resources/about_images/ryan-circle.png" }
+    var imagePath: Path? { "Images/favicon.ico" }
 }
 
 
