@@ -54,13 +54,13 @@ nav {
 }
 
 nav li {
-	color: #e5e5e5 !imporant;
+	color: #e5e5e5 !important;
     display: inline-block;
     margin: 0 7px;
     line-height: 1.5em;
 	font-size: 1.1em;
 	position: relative;
-	background: linear-gradient(to bottom, #323232, #191919);
+	background-color: #018786;
 	border-radius: 5px;
 	padding: 0.3em;
 }
@@ -76,6 +76,18 @@ h1 {
 
 h2 {
     margin: 20px 0;
+}
+
+h3 {
+	color: #03DAC6;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+h4 {
+	color: #e5e5e5;
+    margin-bottom: 20px;
+    font-size: 2em;
 }
 
 p {
@@ -129,7 +141,7 @@ a {
 .tag-list li,
 .tag {
     display: inline-block;
-    background-color: #000;
+    background-color: #018786;
     color: #ddd;
     padding: 4px 6px;
     border-radius: 5px;

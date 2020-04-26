@@ -42,7 +42,7 @@ private struct DimensionHTMLFactory<Site: Website>: HTMLFactory {
             .body(
                 .header(for: context, selectedSection: nil),
                 .wrapper(
-                    .h1(.text(index.title)),
+                    .h3(.text(index.title)),
                     .p(
                         .class("description"),
                         .text(context.site.description)
@@ -67,9 +67,9 @@ private struct DimensionHTMLFactory<Site: Website>: HTMLFactory {
             .lang(context.site.language),
             .head(for: section, on: context.site),
             .body(
-                .header(for: context, selectedSection: section.id),
+                .header(for: context, selectedSection: nil),
                 .wrapper(
-                    .h1(.text(section.title)),
+					.h3(.text(section.title)),
                     .itemList(for: section.items, on: context.site)
                 ),
                 .footer(for: context.site)
@@ -227,6 +227,10 @@ private extension Node where Context == HTML.BodyContext {
     }
 
     static func footer<T: Website>(for site: T) -> Node {
+		let date = Date()
+		let calendar = Calendar.current
+		let year = calendar.component(.year, from: date)
+		
         return .footer(
             .p(
 				.text("Built with "),
@@ -243,9 +247,12 @@ private extension Node where Context == HTML.BodyContext {
             .p(
 				.text("View my "),
 				.a(
-                .text("RSS feed"),
-                .href("/feed.rss")
-            ))
+					.text("RSS feed"),
+					.href("/feed.rss")
+				),
+				.text(" – Ryan Token \(year)")
+			),
+			.br()
         )
     }
 }

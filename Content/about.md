@@ -6,15 +6,14 @@ description: About Ryan
 ---
 
 <div>
-<h1> About </h1>
+<h3> About </h3>
+
 <img src="../about_images/ryan-full.jpeg" alt="Ryan Token" style="border-radius: 10px; width:175px;"/>
 </div>
 
 <br />
 
-Hi, I'm Ryan, and I like to create things.
-
-<br />
+Hi, I'm Ryan. You can find me writing <a href="https://github.com/r-token" target="_blank">code</a>, running my <a href="https://thegoldenhurricast.com" target="_blank">podcast</a>, or watching my <a href="https://tulsahurricane.com" target="_blank">team</a>.
 
 My latest projects include <a href="https://thegoldenhurricast.com" target="_blank">The Golden Hurricast</a>, <a href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank">CatchUp for iOS</a>, and a new iOS app coming soon called StreamScan.
 
@@ -32,19 +31,11 @@ My latest projects include <a href="https://thegoldenhurricast.com" target="_bla
 
 I'm currently deep into web development, iOS development, podcasting, and blogging.
 
-<br />
-
 My favorite language is <a href="https://developer.apple.com/swift/" target="_blank">Swift</a>, I tend to host my personal projects on either <a href="https://www.netlify.com/" target="_blank">Netlify</a> or <a href="https://aws.amazon.com" target="_blank">AWS</a>, and I'm always looking to learn something new.
-
-<br />
 
 I'm also a die-hard fan of the <a href="https://tulsahurricane.com" target="_blank">Tulsa Golden Hurricane</a> and college sports in general.
 
-<br />
-
 You can find me online in the following places:
-
-<br />
 
 <div>
 <ul style="margin-left: 25px">
