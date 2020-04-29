@@ -122,7 +122,7 @@ And then I found <a href="https://github.com/JohnSundell/Publish" target="_blank
 
 ## A Full Redesign – Zero JavaScript
 
-I cloned Publish from GitHub to familiarized myself with it for a few days, and was hooked. I decided that this was the best (and most fun) answer.
+I cloned Publish from GitHub to familiarize myself with it for a few days, and was hooked. I decided that this was the best (and most fun) answer.
 
 Publish was exactly what I was looking for. It lets you build and configure your **entire website** with Swift and <a href="https://daringfireball.net/projects/markdown/" target="_blank">Markdown</a>, nearly everything is customizable, and it comes with native support for blogging built in. It also supports custom themes, plugins, and a host of other powerful options.
 
