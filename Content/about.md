@@ -32,7 +32,7 @@ My latest projects include <a href="https://apps.apple.com/us/app/catchup-keep-i
 
 I'm currently deep into iOS development, web development, podcasting, and blogging.
 
-My favorite language is <a href="https://developer.apple.com/swift/" target="_blank">Swift</a>, I tend to host my personal projects on either <a href="https://www.netlify.com/" target="_blank">Netlify</a> or <a href="https://aws.amazon.com" target="_blank">AWS</a>, and I'm always looking to learn something new.
+My favorite language is <a href="https://developer.apple.com/swift/" target="_blank">Swift</a>, I tend to host my web projects on <a href="https://www.netlify.com/" target="_blank">Netlify</a>, and I'm always looking to learn something new.
 
 I'm also a die-hard fan of the <a href="https://tulsahurricane.com" target="_blank">Tulsa Golden Hurricane</a> and college sports in general.
 

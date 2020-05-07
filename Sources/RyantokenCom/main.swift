@@ -202,10 +202,15 @@ private extension Node where Context == HTML.BodyContext {
     }
 
     static func itemList<T: Website>(for items: [Item<T>], on site: T) -> Node {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "MM/dd/yyyy"
+        
         return .ul(
             .class("item-list"),
             .forEach(items) { item in
                 .li(.article(
+                    .text("Published on \(formatter.string(from: item.date))"),
+                    .br(),.br(),
                     .h1(.a(
                         .href(item.path),
                         .text(item.title)

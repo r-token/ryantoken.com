@@ -1,22 +1,18 @@
 ---
 date: 2020-03-22 11:02
 title: Rebuilding My Website
-description: Why I decided to rebuild ryantoken.com from the ground up, and how I did it with Swift (and without JavaScript)
-tags: Swift, Publish, Web
+description: Why I decided to rebuild ryantoken.com from the ground up, and how I did it with Swift (and without JavaScript).
+tags: Web, Swift, Publish
 ---
 
-<style type="text/css">
-.resizable-image img {
-    text-align: center;
-    margin: auto;
-    width: 100%;
-    border-radius: 5px;
-}
-</style>
-
 # Rebuilding My Website
+March 22, 2020
 
-*Why I decided to rebuild ryantoken.com from the ground up, and how I did it with Swift (and without JavaScript)*
+*Why I decided to rebuild ryantoken.com from the ground up, and how I did it with Swift (and without JavaScript).*
+
+<br />
+
+---
 
 <br />
 
@@ -28,10 +24,19 @@ Most recently, I had learned about a tool called <b><a href="https://getbootstra
 
 See for yourself: (most text blurred out for my own privacy)
 
+<style type="text/css">
+.resizable-image img {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    border-radius: 5px;
+}
+</style>
+
 <br />
 
 <div class="resizable-image">
-    <img src="../../blog_images/websiteV1-blurred.png" alt="ryantoken.com v1"/>
+    <img src="../../blog_images/rmw-websiteV1-blurred.png" alt="ryantoken.com v1"/>
 </div>
 
 *You don't get much more Bootstrappy than that.*
@@ -59,7 +64,7 @@ Notably:
 <br />
 
 <div class="resizable-image">
-    <img src="../../blog_images/websiteV2-blurred.png" alt="ryantoken.com v2"/>
+    <img src="../../blog_images/rmw-websiteV2-blurred.png" alt="ryantoken.com v2"/>
 </div>
 
 <br /> <br />
@@ -69,7 +74,7 @@ And then:
 <br />
 
 <div class="resizable-image">
-    <img src="../../blog_images/websiteV3-blurred.png" alt="ryantoken.com v3"/>
+    <img src="../../blog_images/rmw-websiteV3-blurred.png" alt="ryantoken.com v3"/>
 </div>
 
 <br /> <br />
@@ -133,7 +138,7 @@ The main Swift file to build a site with Publish is incredibly simple to underst
 <br />
 
 <div class="resizable-image">
-    <img src="../../blog_images/publish-basic.png" alt="main.Swift file in Publish"/>
+    <img src="../../blog_images/rmw-publish-basic.png" alt="main.Swift file in Publish"/>
 </div>
 
 <br />
