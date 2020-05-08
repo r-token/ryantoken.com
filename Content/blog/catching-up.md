@@ -138,15 +138,15 @@ Here's what I found:
 
 <br />
 
-There were several other small issues that I bumped into when building this out, but those two took me the longest to find solutions for. In general, though, this is what my browser typically looked like in the throes of SwiftUI development.
-
-So. Many. SwiftUI. Tabs. (shoutout to Hacking with Swift and Swift by Sundell for solving most of my problems)
+There were several other small issues that I bumped into when building this out, but those two took me the longest to find solutions for. In general, though, this is what my browser typically looked like while in the throes of SwiftUI development.
 
 <br />
 
 <div class="resizable-image">
     <img src="../../blog_images/catchingup-somanytabs.png" alt="SwiftUI Browser Tabs"/>
 </div>
+
+*So. Many. SwiftUI. Tabs. (shoutout to Hacking with Swift and Swift by Sundell for solving most of my problems)*
 
 <br />
 

@@ -8,7 +8,7 @@ description: About Ryan
 <div>
 <h3> About </h3>
 
-<img src="../about_images/ryan-full.jpeg" alt="Ryan Token" style="border-radius: 10px; width:175px;"/>
+<img src="../about_images/ryan-full.jpeg" alt="Ryan Token" style="border-radius: 10px; width:150px;"/>
 </div>
 
 <br />
@@ -19,13 +19,22 @@ My latest projects include <a href="https://apps.apple.com/us/app/catchup-keep-i
 
 <br />
 
+<style type="text/css">
+.resizable-image img {
+    text-align: center;
+    margin: auto;
+    width: 29%;
+    border-radius: 5px;
+}
+</style>
+
 <div>
 	
-	<a href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../about_images/catchup-icon.png" alt="CatchUp" style="border-radius: 5px; margin-right: 10px; width:250px;"/></a>
+	<a class="resizable-image" href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../about_images/catchup-icon.png" alt="CatchUp" style="margin-right: 10px;"/></a>
 
-    <a href="https://thegoldenhurricast.com" target="_blank"><img src="../about_images/TGH-icon.png" alt="The Golden Hurricast" style="border-radius: 5px; border: 1px solid lightgrey; margin-right: 10px; width:250px;"/></a>
+    <a class="resizable-image" href="https://thegoldenhurricast.com" target="_blank"><img src="../about_images/TGH-icon.png" alt="The Golden Hurricast" style="margin-right: 10px;"/></a>
 
-    <img src="../about_images/streamscan-icon.png" alt="StreamScan" style="border-radius: 5px;  width:250px;"/>
+    <a class="resizable-image" href="" target="_blank"><img src="../about_images/streamscan-icon.png" alt="StreamScan"/></a>
 </div>
 
 <br />

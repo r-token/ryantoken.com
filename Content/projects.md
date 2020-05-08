@@ -24,14 +24,23 @@ My first public-facing iOS app! First released in May of 2018, I completely rewr
 
 <br />
 
-<div class="resizable-image>
-<a href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../project_images/catchup-home.png" alt="CatchUp - Home" style="border-radius: 5px; border: 1px solid lightgrey; margin-right: 15px; width:185px;"/></a>
+<style type="text/css">
+.small-resizable-image img {
+    text-align: center;
+    margin: auto;
+    width: 21%;
+    border-radius: 10px;
+}
+</style>
 
-<a href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../project_images/catchup-details.png" alt="CatchUp - Details" style="border-radius: 5px; border: 1px solid lightgrey; margin-right: 15px; width:185px;"/></a>
+<div>
+<a class="small-resizable-image" href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../project_images/catchup-home.png" alt="CatchUp - Home" style="margin-right: 10px;"/></a>
 
-<a href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../project_images/catchup-preference.png" alt="CatchUp - Preference" style="border-radius: 5px; border: 1px solid lightgrey; margin-right: 15px; width:185px;"/></a>
+<a class="small-resizable-image" href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../project_images/catchup-details.png" alt="CatchUp - Details" style="margin-right: 10px;"/></a>
 
-<a href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../project_images/catchup-tipjar.png" alt="CatchUp - Tip Jar" style="border-radius: 5px; border: 1px solid lightgrey; margin-right: 15px; width:185px;"/></a>
+<a class="small-resizable-image" href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../project_images/catchup-preference.png" alt="CatchUp - Preference" style="margin-right: 10px;"/></a>
+
+<a class="small-resizable-image" href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../project_images/catchup-tipjar.png" alt="CatchUp - Tip Jar"/></a>
 </div>
 
 <br />
