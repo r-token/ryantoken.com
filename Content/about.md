@@ -34,7 +34,7 @@ My latest projects include <a href="https://apps.apple.com/us/app/catchup-keep-i
 
     <a class="resizable-image" href="https://thegoldenhurricast.com" target="_blank"><img src="../about_images/TGH-icon.png" alt="The Golden Hurricast" style="margin-right: 10px;"/></a>
 
-    <a class="resizable-image" href="" target="_blank"><img src="../about_images/streamscan-icon.png" alt="StreamScan"/></a>
+    <a class="resizable-image" href="#"><img src="../about_images/streamscan-icon.png" alt="StreamScan"/></a>
 </div>
 
 <br />
