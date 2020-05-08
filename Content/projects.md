@@ -5,7 +5,7 @@ title: Projects
 ---
 
 <head>
-<meta name="apple-itunes-app" content="app-id=1358023550"/>
+	<meta name="apple-itunes-app" content="app-id=1358023550"/>
 </head>
 
 <h3> Projects </h3>
