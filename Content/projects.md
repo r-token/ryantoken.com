@@ -4,6 +4,10 @@ description: The projects I'm currently working on.
 title: Projects
 ---
 
+<head>
+<meta name="apple-itunes-app" content="app-id=1358023550"/>
+</head>
+
 <h3> Projects </h3>
 
 <br /> 
