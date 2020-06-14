@@ -8,7 +8,7 @@ let package = Package(
         .executable(name: "RyantokenCom", targets: ["RyantokenCom"])
     ],
     dependencies: [
-        .package(url: "https://github.com/johnsundell/publish.git", from: "0.3.0")
+        .package(url: "https://github.com/johnsundell/publish.git", from: "0.6.0")
     ],
     targets: [
         .target(
