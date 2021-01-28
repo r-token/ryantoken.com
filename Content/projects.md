@@ -1,5 +1,5 @@
 ---
-date: 2020-03-14 20:43
+date: 2021-01-27 22:44
 description: The projects I'm currently working on.
 title: Projects
 ---
@@ -15,6 +15,38 @@ title: Projects
 What I'm currently working on in my spare time.
 
 <br />
+
+---
+
+<br /> <br />
+
+## Dashing Through the 'Ville
+
+<style type="text/css">
+.resizable-image img {
+	text-align: center;
+	margin: auto;
+	width: 100%;
+}
+</style>
+
+<p>
+<a href="https://dashingthroughtheville.com" target="_blank">Dashing Through the 'Ville</a> is a city-wide scavenger hunt held throughout Bartlesville, Oklahoma.
+</p>
+
+Proceeds from the event benefitted Youth and Family Services of Washington County, and it helped them raise a total of $15,000.
+
+The web app is fully serverless – built with <a href="https://reactjs.org" target="_blank">React</a> on the front end, <a href="https://aws.amazon.com/" target="_blank">AWS</a> as the middle tier and back end, and hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a>. The AWS services used include Lambda, API Gateway, DynamoDB, SES, Cognito, Amplify, IAM, and more.
+
+<div>
+<a href="https://dashingthroughtheville.com" target="_blank"><img src="../project_images/dttv-website.png" alt="Dashing Through the Ville" style="border-radius: 5px; width: 100%;"/></a>
+</div>
+
+I was the sole developer for this project. As a volunteer, I ended up building the entire application in a span of three weeks.
+
+We had about three hundred users throughout the city, and heard of no incidents throughout the event.
+
+<br /> <br />
 
 ---
 
@@ -82,7 +114,7 @@ Read my blog post about modernizing CatchUp <a href="https://ryantoken.com/blog/
 The website was built with <a href="https://reactjs.org" target="_blank">React</a>, <a href="https://graphql.org" target="_blank">GraphQL</a>, and <a href="https://www.gatsbyjs.org" target="_blank">Gatsby</a>.
 
 <div>
-<a href="https://thegoldenhurricast.com" target="_blank"><img src="../project_images/TGH-web.png" alt="The Golden Hurricast" style="border-radius: 5px; width: 100%;"/></a>
+<a href="https://thegoldenhurricast.com" target="_blank"><img src="../project_images/tgh-website.png" alt="The Golden Hurricast" style="border-radius: 5px; width: 100%;"/></a>
 </div>
 
 I built and maintain the website, as well as co-host the podcast and contribute to blog posts. All of the content produced by The Golden Hurricast is completely free.
@@ -93,10 +125,12 @@ I built and maintain the website, as well as co-host the podcast and contribute 
 
 <br/> <br />
 
-## StreamScan for iOS
+## Eagle Crest HOA
 
-StreamScan is the easiest way for cord cutters to keep track of the channels that live TV services offer. It currently keeps track of channels for ten different services, including YouTube TV, Hulu + Live TV, and Philo.
+I'm currently working on a new serverless web application for the Eagle Crest HOA in St. Louis, Missouri. We plan to go live with the app in mid to late-February of 2021.
 
-*I will soon be rebuilding StreamScan with Apple's new UI Framework, SwiftUI.*
+Similar to Dashing Through the 'Ville, it's built with <a href="https://reactjs.org" target="_blank">React</a> on the front end, <a href="https://aws.amazon.com/" target="_blank">AWS</a> as the middle tier and the back end, and is hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a>.
 
-<br /> <br /> <br />
+AWS services used for this include S3, Lambda, API Gateway, DynamoDB, SES, Cognito, Amplify, and more.
+
+<br /> 

@@ -1,21 +1,21 @@
 ---
 title: About
 id: About
-date: 2020-03-14 20:43
+date: 2021-01-27 22:44
 description: About Ryan
 ---
 
 <div>
 <h3> About </h3>
 
-<img src="../about_images/ryan-full.jpeg" alt="Ryan Token" style="border-radius: 10px; width:150px;"/>
+<img src="../about_images/ryan-full.jpg" alt="Ryan Token" style="border-radius: 10px; width:29%;"/>
 </div>
 
 <br />
 
 Hi, I'm Ryan. You can find me writing <a href="https://github.com/r-token" target="_blank">code</a>, running my <a href="https://thegoldenhurricast.com" target="_blank">podcast</a>, or watching my <a href="https://tulsahurricane.com" target="_blank">team</a>.
 
-My latest projects include <a href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank">CatchUp for iOS</a>, <a href="https://thegoldenhurricast.com" target="_blank">The Golden Hurricast</a>, and a new iOS app coming soon called StreamScan.
+My latest projects include <a href="https://dashingthroughtheville.com" target="_blank">Dashing Through the 'Ville</a>, <a href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank">CatchUp for iOS</a>, and <a href="https://thegoldenhurricast.com" target="_blank">The Golden Hurricast</a>.
 
 <br />
 
@@ -29,19 +29,19 @@ My latest projects include <a href="https://apps.apple.com/us/app/catchup-keep-i
 </style>
 
 <div>
+
+	<a class="resizable-image" href="https://dashingthroughtheville.com" target="_blank"><img src="../about_images/dashing-through-the-ville.png" alt="Dashing Through the Ville" style="margin-right: 10px;"/></a>
 	
 	<a class="resizable-image" href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../about_images/catchup-icon.png" alt="CatchUp" style="margin-right: 10px;"/></a>
 
-    <a class="resizable-image" href="https://thegoldenhurricast.com" target="_blank"><img src="../about_images/TGH-icon.png" alt="The Golden Hurricast" style="margin-right: 10px;"/></a>
-
-    <a class="resizable-image" href="#"><img src="../about_images/streamscan-icon.png" alt="StreamScan"/></a>
+    <a class="resizable-image" href="https://thegoldenhurricast.com" target="_blank"><img src="../about_images/golden-hurricast.jpg" alt="The Golden Hurricast" style="margin-right: 10px;"/></a>
 </div>
 
 <br />
 
-I'm currently deep into iOS development, web development, podcasting, and blogging.
+I'm currently deep into web development, iOS development, podcasting, and blogging.
 
-My favorite language is <a href="https://developer.apple.com/swift/" target="_blank">Swift</a>, I tend to host my web projects on <a href="https://www.netlify.com/" target="_blank">Netlify</a>, and I'm always looking to learn something new.
+My favorite languages are <a href="https://www.javascript.com/" target="_blank">JavaScript</a> and <a href="https://developer.apple.com/swift/" target="_blank">Swift</a>, I tend to host my web projects on <a href="https://aws.amazon.com/" target="_blank">AWS</a> or <a href="https://www.netlify.com/" target="_blank">Netlify</a>, and I'm always looking to learn something new.
 
 I'm also a die-hard fan of the <a href="https://tulsahurricane.com" target="_blank">Tulsa Golden Hurricane</a> and college sports in general.
 
