@@ -19,7 +19,7 @@ struct Blog: Website {
     var name = "Ryan Token"
     var description = "I'm a 💻 programmer, 🎙️ podcaster, 📝 writer, 🏈🏀 sports fan, and  enthusiast."
     var language: Language { .english }
-    var imagePath: Path? { "Resources/favicons/favicon.ico" }
+    var imagePath: Path? { "favicon.ico" }
 }
 
 
