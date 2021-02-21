@@ -64,7 +64,7 @@ All of this is to say that the Jamstack is NOT a specific set of languages or to
 <br />
 
 <div class="resizable-image">
-	<img src="../../blog_images/rwj-architecture.jpg" alt="Jamstack architecture"/>
+	<img src="../../blog_images/rwj-architecture.png" alt="Jamstack architecture"/>
 </div>
 
 <br />
