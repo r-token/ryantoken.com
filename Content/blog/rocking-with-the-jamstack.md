@@ -35,19 +35,19 @@ There comes a time in every young developer's life when they stumble upon a tech
 
 That's been the <a href="https://jamstack.org" target="_blank">Jamstack</a> for me.
 
-The Jamstack, originally styled as JAMstack, can sound a bit nebulous at first. The J-A-M there stands for JavaScript, APIs, and Markup. Those are the only key ingredients for any Jamstack application. There is no specific framework involved, there's no cloud provider or back end language you *need* to use, there's no required toolchain or build process. There are very few hard and fast requirements at all. It is a nebulous term intentionally, and that's one of its positives, but there **are** two requirements.
+The Jamstack, originally styled as JAMstack, can sound a bit nebulous at first. The J-A-M there stands for **J**avaScript, **A**PIs, and **M**arkup. Those are the only required ingredients for any Jamstack application. There is no specific framework involved, no cloud provider or back end language you *need* to use, no required toolchain or build process. There are very few hard-and-fast requirements at all. It is a vague term intentionally, and that's one of its positives, but there **are** two requirements.
 
 ***First***: a static front end
 
-A Jamstack front end is pre-rendered. That is to say the content that a user sees on the client side is generated *before* it's required, not *once* it's required. This gives Jamstack applications a massive speed advantage.
+A Jamstack front end is pre-rendered. That is to say, the content that a user sees on the client-side is generated *before* it's required, not *once* it's required. This gives Jamstack applications a massive speed advantage.
 
-This markup generation happens during a build step rather than on-demand on the server side. Because of this, your app doesn't need to repeatedly make network round-trips to serve up the pages the user requests; they've already been generated and are there instantly for the user to interact with. This takes the load off of the web host and dramatically improves scalability.
+This markup generation happens during a build step rather than on-demand on the server-side. Because of this, your app doesn't need to repeatedly make network round-trips to serve up the pages the user requests; they've already been generated and are there instantly for the user to interact with. This takes the load off of the web host and dramatically improves scalability.
 
 ***Second***: decoupling
 
 A college professor of mine continually stressed the idea of applications that were "loosely coupled and highly cohesive".
 
-Half of the idea he was pushing here was the concept of decoupling. A decoupled application has clean separation points between its various parts. Decoupling allows for each component of the application to be more easily understandable and simpler to swap out or upgrade.
+Half of the idea he was pushing here was the concept of decoupling. A decoupled application has clean separation points between its various parts. Decoupling allows each component of the application to be more easily understandable and simpler to swap out or upgrade.
 
 The key takeaway in the context of the Jamstack is to enforce a clean separation between your front end and your back end services.
 
@@ -73,20 +73,20 @@ All of this is to say that the Jamstack is NOT a specific set of languages or to
 
 Modern web development can be exhausting and overwhelming. Jamstack applications aim to simplify your architecture while significantly enhancing the speed, scalability, and overall performance of your application.
 
-* **Speed**: The fact that all of your pages are static and pre-rendered means your page load times will decrease dramatically when compared to a standard server-side rendered app.
+* **Speed**: The fact that all of your pages are static and pre-rendered means your page load times will decrease dramatically compared to a standard server-side rendered app.
 
 * **Scalability**: Server-side rendered applications inherently slow down when under heavy load. The web servers get buried under a mountain of requests and suffer when they can't fulfill all the requests for each page in time. This problem simply does not exist for Jamstack applications. The pages are already rendered on the front end – all your app needs to do is show users the page they want. No network round-trip necessary.
 
 * **Future Proofing**: The decoupled nature of Jamstack applications means you can easily swap out your Angular front end with a React front end, or vice-versa. Want to migrate your back end services from Azure to AWS? Or write them all in Python instead of Node.js? Your front end won't care, and it will be a much simpler process.
 
-* **Developer Experience**: Developing with the Jamstack is just fun. There are cutting edge technologies in use across the board. Having Netlify automatically see a change on my main branch in GitHub and then seamlessly deploy a new build out to production still makes me smile every time. The Jamstack supports all of the latest JavaScript frameworks too. React, Gatsby, Next.js, Hugo, and more are all widely supported.
+* **Developer Experience**: Developing with the Jamstack is just fun. There are cutting-edge technologies in use across the board. Having Netlify automatically see a change on my main branch in GitHub and then seamlessly deploy a new build out to production still makes me smile every time. The Jamstack supports all of the latest JavaScript frameworks too. React, Gatsby, Next.js, Hugo, and more are all widely supported.
 
 <br />
 
 
 ## How to Get Started
 
-It's easier than you think! Outside of a basic understanding of JavaScript and APIs, there are hardly any *specific* technologies you need to know in order to start building Jamstack applications. There are some other concepts you should be familiar with, though:
+It's easier than you think! Outside of a basic understanding of JavaScript and APIs, there are hardly any *specific* technologies you need to know in order to start building Jamstack applications. There are some concepts you should be familiar with, though:
 
 * **Static Site Generators**: Frameworks that take in one source, like JavaScript or Markdown, and create static HTML files from them. Examples include <a href="https://www.gatsbyjs.com" target="_blank">Gatsby</a>, <a href="https://gohugo.io" target="_blank">Hugo</a>, <a href="https://nextjs.org" target="_blank">Next.js</a>, and I'd even include the indomitable <a href="https://create-react-app.dev" target="_blank">Create React App</a>.
 
@@ -96,7 +96,7 @@ It's easier than you think! Outside of a basic understanding of JavaScript and A
 
 * **Data Storage**: Your serverless database. Where your data will persist. The top options among Jamstack developers include <a href="https://fauna.com" target="_blank">Fauna</a/>, <a href="https://www.mongodb.com" target="_blank">MongoDB</a>, <a href="https://airtable.com" target="_blank">Airtable</a>, and <a href="https://aws.amazon.com/dynamodb/" target="_blank">DynamoDB</a>. 
 
-There are also plenty of learning resources out there. One of the best is <a href="https://jamstackconf.com" target="_blank">Jamstack Conf</a> - a developer conference solely focused around the Jamstack. The past few events have been free to attend, and I've gotten a lot of value out of them.
+There are also plenty of learning resources out there. One of the best is <a href="https://jamstackconf.com" target="_blank">Jamstack Conf</a> - a semiannual developer conference solely focused on the Jamstack. The past few events have been free to attend, and I've gotten a lot of value out of them.
 
 <br />
 
@@ -104,30 +104,30 @@ There are also plenty of learning resources out there. One of the best is <a hre
 
 I've built several Jamstack applications now and have thoroughly enjoyed every bit of it. Of all its benefits, the one that resonates most with me is just how fun it is to write apps this way. Creating a React front end that calls an array of serverless functions, all while hosted on the powerful Netlify CDN, was incredibly quick to set up and simple to reason about.
 
-Another key point that I haven't touched on yet is how mind-bogglingly powerful this way of building apps can be for hobbyists who don't want to spend much (or any) money.
+Another point that I haven't touched on yet: if you are a hobby developer who doesn't want to spend much (or any) money, this way of building applications can be mind-bogglingly powerful.
 
 **Some quick price points for you:**
 
-CDN and Hosting with Netlify: *Free*
+* CDN and Hosting with Netlify: *Free*
 
-Serverless Functions with AWS Lambda: *Free* (up to one million function calls per month)
+* Serverless Functions with AWS Lambda: *Free* (up to one million function calls per month)
 
-API Setup with AWS API Gateway: *Free* (up to one million API calls per month)
+* API Setup with AWS API Gateway: *Free* (up to one million API calls per month)
 
-Data Storage with AWS DynamoDB: *Free* (up to 25 GB of data)
+* Data Storage with AWS DynamoDB: *Free* (up to 25 GB of data)
 
-Yes, you read that right. You can build and run a fairly sizable project *completely* for free. I've had two Jamstack applications running live in production with hundreds of users for several months, and have yet to be charged a dime. It's so good it almost feels like cheating.
+Yes, you read that right. You can build and run a fairly sizable project *completely* for free. I've had two Jamstack applications running live in production with hundreds of users for months, and have yet to be charged a dime. It's so good it almost feels like cheating.
 
 <br />
 
 ## Next Steps
 
-I am all-in on the Jamstack, and there are always areas to improve and expand upon.
+I am all-in on the Jamstack. As always, there are plenty of areas still for me to expand on and improve.
 
-My front ends are all currently either using Gatsby or just Create React App. I am _very_ interested in <a href="https://nextjs.org" target="_blank">Next.js</a>, and will be diving into this heavily in the near future. Netlify was very quick to support Next.js, and I'm psyched about this integration.
+My front ends are all currently either using Gatsby or Create React App. I am _very_ interested in <a href="https://nextjs.org" target="_blank">Next.js</a>, and will be diving into this heavily in the near future. Netlify was very quick to support Next.js, and I'm psyched about this integration.
 
-I'm also (in my opinion) a bit too much of an AWS purist right now. Don't get me wrong, AWS is fantastic, but I need to diversify a bit. Some of the other options I mentioned above, specifically in the data storage realm, sound extremely exciting. Using <a href="https://fauna.com" target="_blank">Fauna</a/> as a data store over AWS's DynamoDB is likely in my future.
+I'm also (in my opinion) a bit too much of an AWS purist right now. Don't get me wrong, AWS is fantastic, but I need to diversify a bit. Some of the other options I mentioned above, specifically in the data storage realm, sound quite exciting. Using <a href="https://fauna.com" target="_blank">Fauna</a/> as a data store over AWS's DynamoDB is likely in my future.
 
-Also, I definitely want to try out Netlify's own serverless function features instead of manually building my own Lambda functions within AWS.
+Further, I want to try out Netlify's own serverless Netlify Functions feature instead of manually building my own Lambda functions within AWS.
 
 That's where I'm at for now. I'm extremely excited about the future of web development with the Jamstack. There are so many cool things happening around developer experience and workflow right now. The future looks incredibly bright, and the Jamstack is leading the charge.
