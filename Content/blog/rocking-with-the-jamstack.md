@@ -2,7 +2,7 @@
 date: 2021-02-21 7:00
 title: Rocking with the Jamstack
 description: Diving into the Jamstack, and loving every minute of it.
-tags: Web, Jamstack, Serverless, Cloud
+tags: Web, Jamstack, Serverless
 ---
 
 #  Rocking with the Jamstack
