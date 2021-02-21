@@ -29,6 +29,8 @@ February 21, 2021
 	<img src="../../blog_images/rwj-jamstack-logo.png" alt="Jamstack logo"/>
 </div>
 
+<br />
+
 ## What Is the Jamstack?
 
 There comes a time in every young developer's life when they stumble upon a technology, or a philosophy around technologies, that just *works* for them. At least, that's what I envision an older and more experienced developer telling me.

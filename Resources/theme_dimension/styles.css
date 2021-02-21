@@ -70,6 +70,7 @@ nav li a.selected {
 }
 
 h1 {
+	margin-top: 0px;
     margin-bottom: 20px;
     font-size: 2em;
 }
