@@ -53,7 +53,7 @@ The key takeaway in the context of the Jamstack is to enforce a clean separation
 
 This means a static site on the front end with serverless functions on the back end. Your front end should not care what you're using on the back end, and vice-versa. Each can be iterated on independently without ever impacting the other.
 
-The loosely coupled glue between the front end and back end in a Jamstack application are the APIs.
+The loosely coupled glue between the front end and back end in a Jamstack application is the API layer. I use AWS's <a href="https://aws.amazon.com/api-gateway/" target="_blank">API Gateway</a> to host my APIs, but there are plenty of options.
 
 <br />
 
