@@ -18,7 +18,7 @@ May 08, 2020
 
 CatchUp - Keep in Touch was first released on May 6, 2018. It was the first iOS app I'd ever published to the App Store. Almost exactly two years later, I'm publishing this blog post and releasing an all-new, completely rewritten version of CatchUp.
 
-This post talks about the origins of CatchUp, my decision to start over from scratch, implementing SwiftUI and Core Data (mostly SwiftUI), and writing cleaner code. At the end of this post, I do a bit of comparison between the new version and the previous version.
+This post talks about the origins of CatchUp, my decision to start over from scratch, implementing SwiftUI and Core Data, and writing cleaner code. At the end of this post, I do a bit of comparison between the new version and the previous version.
 
 <br />
 

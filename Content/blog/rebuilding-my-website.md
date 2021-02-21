@@ -165,8 +165,6 @@ I'm incredibly excited for the journey that this site will lead me down. I've be
 
 I plan to dive head-first into Plot (Sundell's theming engine) in the very near future to add some more color, dynamism, and customization to the site. Keep an eye out for changes in that area soon.
 
-In the meantime, I'll probably be writing about my experience with React while building <a href="https://thegoldenhurricast.com" target="_blank">thegoldenhurricast.com</a> in the next month or so. After that, I will absolutely have a post or two once WWDC 2020 kicks off in an <a href="https://www.apple.com/newsroom/2020/03/apples-wwdc-2020-kicks-off-in-june-with-an-all-new-online-format/" target="_blank">online-only</a> format in June.
-
 <br />
 
 Stay tuned! I can't wait to see how this goes.
