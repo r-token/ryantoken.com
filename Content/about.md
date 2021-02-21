@@ -11,8 +11,6 @@ description: About Ryan
 <img src="../about_images/ryan-full.jpg" alt="Ryan Token" style="border-radius: 10px; width:29%;"/>
 </div>
 
-<br />
-
 Hi, I'm Ryan. You can find me writing <a href="https://github.com/r-token" target="_blank">code</a>, running my <a href="https://thegoldenhurricast.com" target="_blank">podcast</a>, or watching my <a href="https://tulsahurricane.com" target="_blank">team</a>.
 
 My latest projects include <a href="https://dashingthroughtheville.com" target="_blank">Dashing Through the 'Ville</a>, <a href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank">CatchUp for iOS</a>, and <a href="https://thegoldenhurricast.com" target="_blank">The Golden Hurricast</a>.
@@ -39,7 +37,7 @@ My latest projects include <a href="https://dashingthroughtheville.com" target="
 
 <br />
 
-I'm currently deep into web development, iOS development, podcasting, and blogging.
+I'm currently deep into serverless web development, native iOS development, podcasting, and blogging.
 
 My favorite languages are <a href="https://www.javascript.com/" target="_blank">JavaScript</a> and <a href="https://developer.apple.com/swift/" target="_blank">Swift</a>, I tend to host my web projects on <a href="https://aws.amazon.com/" target="_blank">AWS</a> or <a href="https://www.netlify.com/" target="_blank">Netlify</a>, and I'm always looking to learn something new.
 

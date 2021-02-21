@@ -10,15 +10,13 @@ title: Projects
 
 <h3> Projects </h3>
 
-<br /> 
-
-What I'm currently working on in my spare time.
+*What I'm currently working on in my spare time.*
 
 <br />
 
 ---
 
-<br /> <br />
+<br />
 
 ## Dashing Through the 'Ville
 

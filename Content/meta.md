@@ -5,15 +5,13 @@ title: Meta
 
 <h3> Meta </h3>
 
-<br /> 
-
-How this site was built.
+*How this site was built.*
 
 <br />
 
 ---
 
-<br /> <br />
+<br />
 
 This site was created using <a href="https://github.com/johnsundell/publish" target="_blank">Publish</a>, a way to build websites with <a href="https://developer.apple.com/swift/" target="_blank">Swift</a> and <a href="https://daringfireball.net/projects/markdown/" target="_blank">Markdown</a>.
 
