@@ -53,6 +53,6 @@ You can find me online in the following places:
 <br />
 <li> <a href="https://linkedin.com/in/ryantoken" target="_blank">LinkedIn</a> </li>
 <br />
-<li> <a href="mailto: ryantoken@gmail.com">Email</a> </li>
+<li> <a href="mailto: ryantoken13@gmail.com">Email</a> </li>
 </ul>
 </div>
