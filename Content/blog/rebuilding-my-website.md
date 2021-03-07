@@ -36,7 +36,7 @@ See for yourself: (most text blurred out for my own privacy)
 <br />
 
 <div class="resizable-image">
-    <img src="../../blog_images/rmw-websiteV1-blurred.png" alt="ryantoken.com v1"/>
+    <img src="../../blog_images/rebuilding-my-website/rmw-websiteV1-blurred.png" alt="ryantoken.com v1"/>
 </div>
 
 *You don't get much more Bootstrappy than that.*
@@ -64,7 +64,7 @@ Notably:
 <br />
 
 <div class="resizable-image">
-    <img src="../../blog_images/rmw-websiteV2-blurred.png" alt="ryantoken.com v2"/>
+    <img src="../../blog_images/rebuilding-my-website/rmw-websiteV2-blurred.png" alt="ryantoken.com v2"/>
 </div>
 
 <br /> <br />
@@ -74,7 +74,7 @@ And then:
 <br />
 
 <div class="resizable-image">
-    <img src="../../blog_images/rmw-websiteV3-blurred.png" alt="ryantoken.com v3"/>
+    <img src="../../blog_images/rebuilding-my-website/rmw-websiteV3-blurred.png" alt="ryantoken.com v3"/>
 </div>
 
 <br /> <br />
@@ -138,7 +138,7 @@ The main Swift file to build a site with Publish is incredibly simple to underst
 <br />
 
 <div class="resizable-image">
-    <img src="../../blog_images/rmw-publish-basic.png" alt="main.Swift file in Publish"/>
+    <img src="../../blog_images/rebuilding-my-website/rmw-publish-basic.png" alt="main.Swift file in Publish"/>
 </div>
 
 <br />
@@ -168,3 +168,7 @@ I plan to dive head-first into Plot (Sundell's theming engine) in the very near 
 <br />
 
 Stay tuned! I can't wait to see how this goes.
+
+<br />
+
+**<a href="#">Back to Top</a>**

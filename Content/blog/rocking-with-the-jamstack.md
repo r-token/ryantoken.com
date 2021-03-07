@@ -26,7 +26,7 @@ February 21, 2021
 </style>
 
 <div class="resizable-image">
-	<img src="../../blog_images/rwj-jamstack-logo.png" alt="Jamstack logo"/>
+	<img src="../../blog_images/rocking-with-the-jamstack/rwj-jamstack-logo.png" alt="Jamstack logo"/>
 </div>
 
 <br />
@@ -66,7 +66,7 @@ All of this is to say that the Jamstack is NOT a specific set of languages or to
 <br />
 
 <div class="resizable-image">
-	<img src="../../blog_images/rwj-architecture.png" alt="Jamstack architecture"/>
+	<img src="../../blog_images/rocking-with-the-jamstack/rwj-architecture.png" alt="Jamstack architecture"/>
 </div>
 
 <br />
@@ -133,3 +133,7 @@ I'm also (in my opinion) a bit too much of an AWS purist right now. Don't get me
 Further, I want to try out Netlify's own serverless Netlify Functions feature instead of manually building my own Lambda functions within AWS.
 
 That's where I'm at for now. I'm extremely excited about the future of web development with the Jamstack. There are so many cool things happening around developer experience and workflow right now. The future looks incredibly bright, and the Jamstack is leading the charge.
+
+<br />
+
+**<a href="#">Back to Top</a>**

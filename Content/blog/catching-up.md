@@ -121,7 +121,7 @@ Here's the workaround I found on Stack Overflow - the fix is highlighted at the 
 <br />
 
 <div class="resizable-image">
-    <img src="../../blog_images/catchingup-onReceive.png" alt="SwiftUI onReceive weirdness"/>
+    <img src="../../blog_images/catching-up/catchingup-onReceive.png" alt="SwiftUI onReceive weirdness"/>
 </div>
 
 <br />
@@ -139,7 +139,7 @@ Here's what I found:
 <br />
 
 <div class="resizable-image">
-    <img src="../../blog_images/catchingup-moc.png" alt="SwiftUI MOC weirdness"/>
+    <img src="../../blog_images/catching-up/catchingup-moc.png" alt="SwiftUI MOC weirdness"/>
 </div>
 
 <br />
@@ -149,7 +149,7 @@ There were several other small issues that I bumped into when building this out,
 <br />
 
 <div class="resizable-image">
-    <img src="../../blog_images/catchingup-somanytabs.png" alt="SwiftUI Browser Tabs"/>
+    <img src="../../blog_images/catching-up/catchingup-somanytabs.png" alt="SwiftUI Browser Tabs"/>
 </div>
 
 *So. Many. SwiftUI. Tabs. (shout-out to Hacking with Swift and Swift by Sundell for solving most of my problems)*
@@ -207,3 +207,7 @@ CatchUp is completely free with no ads. Download the all-new CatchUp – Keep in
 <br />
 
 <a href="https://itunes.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:270px;height:80px;background-size:contain;"></a>
+
+<br /> <br />
+
+**<a href="#">Back to Top</a>**
