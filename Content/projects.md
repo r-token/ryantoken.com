@@ -16,6 +16,28 @@ title: Projects
 
 ---
 
+<br/>
+
+## Eagle Crest STL
+
+<p>
+<a href="https://eaglecreststl.org" target="_blank">Eagle Crest STL</a> is a fully serverless web app tailor-made for the Eagle Crest HOA in St. Louis, MO.
+</p>
+
+It allows members and trustees to easily send messages, make requests, give announcements, view documents, and see a list of all homeowners in the HOA.
+
+<div>
+<a href="https://eaglecreststl.org" target="_blank"><img src="../project_images/eaglecrest-home.PNG" alt="Eagle Crest STL" style="border-radius: 5px; width: 100%;"/></a>
+</div>
+
+It's a Jamstack app built with <a href="https://reactjs.org" target="_blank">React</a> on the front end, <a href="https://aws.amazon.com/" target="_blank">AWS</a> as the middle tier and the back end, and is hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a>.
+
+AWS services used for this include S3, Lambda, API Gateway, DynamoDB, SES, Cognito, Amplify, and more.
+
+<br /> 
+
+---
+
 <br />
 
 ## Dashing Through the 'Ville
@@ -116,19 +138,3 @@ The website was built with <a href="https://reactjs.org" target="_blank">React</
 </div>
 
 I built and maintain the website, as well as co-host the podcast and contribute to blog posts. All of the content produced by The Golden Hurricast is completely free.
-
-<br /> <br /> <br />
-
----
-
-<br/> <br />
-
-## Eagle Crest HOA
-
-I'm currently working on a new serverless web application for the Eagle Crest HOA in St. Louis, Missouri. We plan to go live with the app in mid to late-February of 2021.
-
-Similar to Dashing Through the 'Ville, it's built with <a href="https://reactjs.org" target="_blank">React</a> on the front end, <a href="https://aws.amazon.com/" target="_blank">AWS</a> as the middle tier and the back end, and is hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a>.
-
-AWS services used for this include S3, Lambda, API Gateway, DynamoDB, SES, Cognito, Amplify, and more.
-
-<br /> 
