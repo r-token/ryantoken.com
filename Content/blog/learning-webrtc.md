@@ -33,7 +33,7 @@ March 07, 2021
 
 WebRTC can be tricky to wrap your mind around – there's a lot involved and it's easy to get overwhelmed. Once you understand the basics though, it's much easier to reason about the rest.
 
-I've been working fairly heavily with the standard over the past several weeks and wanted to document the knowledge I've gained while also providing some sample code, evaluating the technology's pros and cons, and providing resources for continued learning.
+I've been working fairly heavily with the standard over the past several weeks and wanted to document the knowledge I've gained while also providing some sample code, evaluating the technology's pros and cons, and supplying resources for continued learning.
 
 <br />
 
