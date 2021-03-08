@@ -419,6 +419,8 @@ I was able to build a very performant peer-to-peer video streaming application b
 
 * *WebRTC API* on the <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API" target="_blank">Mozilla Developer Network</a>
 
+* *<a href="https://webrtcforthecurious.com" target="_blank">WebRTC For The Curious</a>*
+
 * *WebRTC Crash Course* on <a href="https://www.youtube.com/watch?v=FExZvpVvYxA" target="_blank">YouTube</a>
     * This was particularly helpful. I highly recommend you take the time to watch the full thing
     * Many of the concepts in this post were inspired directly by this video
