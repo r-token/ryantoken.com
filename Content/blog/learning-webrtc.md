@@ -93,6 +93,11 @@ When others try to reach you, they ultimately reach your router's public IP and 
 
 There are four different NAT types: Full Cone NAT (normal NAT), Address-Restricted NAT, Port-Restricted NAT, and Symmetric NAT. All of these work well with WebRTC *except* Symmetric NAT. More info on the four NAT types <a href="https://dh2i.com/kbs/kbs-2961448-understanding-different-nat-types-and-hole-punching/" target="_blank">here</a>.
 
+> *Edit*: According to the <a href="https://tools.ietf.org/html/rfc4787" target="_blank">Internet Engineering Task Force</a>, the "Cone" and "Symmetric" NAT terminology has done a poor job explaining NAT behavior. While you may still see these terms when reading about NAT, it is recommended to use the following terminology instead: Endpoint-Independent mapping and filtering, Address-Dependent mapping and filtering, and Address and Port-Dependent mapping and filtering.
+
+> Address and Port-Dependent mapping and filtering is the equivalent of Symmetric NAT, which is the only type that does not work with WebRTC. You can read more about the new NAT terminology <a href="https://en.wikipedia.org/wiki/Network_address_translation#Methods_of_translation" target="_blank">here</a>.
+
+
 In the context of WebRTC, our devices pass through our routers to a STUN server. The STUN server sends us back a public IP address we can use to connect peer-to-peer with another client.
 
 <br />
@@ -169,6 +174,36 @@ Once you have your SDP string, you'll need to signal it out yourself. WebRTC doe
 
 <br />
 
+***DTLS, SRTP, & SCTP*** – Securing and Customizing WebRTC Data Flow
+
+> *DTLS*: Datagram Transport Layer Security
+
+> *SRTP*: Secure Real-time Transport Protocol
+
+> *SCTP*: Stream Control Transmission Protocol
+
+<br />
+
+<div class="resizable-image">
+    <img src="../../blog_images/learning-webrtc/webrtc-security.png" alt="WebRTC Data Flow Diagram"/>
+</div>
+
+<br />
+
+Note that WebRTC did not introduce these protocols. They were around long before WebRTC was established in 2011. DTLS was invented in 2006, SRTP in 2004, SCTP in 2000.
+
+The purpose of DTLS and SRTP is to secure the connection previously established by ICE.
+
+First, WebRTC does a DTLS handshake over the connection that ICE established. Once that handshake has been completed, we have a secure connection, and this new DTLS connection is used for messages over our data channel.
+
+We then use SRTP for secure audio and video transmission. The SRTP session is encrypted by extracting the keys from the negotiated DTLS session.
+
+Once both of these steps have been completed, we have a bi-directional and secure communication channel.
+
+The final term to understand here is SCTP. SCTP provides different options for delivering messages. You can choose to have unreliable, out-of-order delivery so you can get the latency needed for real-time systems; or you can opt for reliable, in-sequence transmission of messages with congestion control.
+
+<br />
+
 ## Revisiting the WebRTC Lifecycle
 
 Now that we understand the fundamental WebRTC concepts, let's revisit a standard WebRTC communication lifecycle with some more detail.
@@ -198,6 +233,8 @@ Some additional information first: Every client maintains two SDP descriptions, 
 ## A Vanilla Implementation
 
 Let's walk through how to create a basic WebRTC connection between two peers using just the vanilla WebRTC API. We won't use any libraries or anything extra on top of it – just the basics so you really understand what's happening here. You could run this code directly in two browser windows via the browser's dev tools and it would work.
+
+Note that we will not need to connect to any STUN or TURN servers in this example, as both browsers will be on the same local area network. STUN and TURN are only required when connecting to a remote peer on a different network. If we did need to connect to a STUN/TURN server, we'd pass that information into the new RTCPeerConnection we create in step one.
 
 ***Browser One***
 
