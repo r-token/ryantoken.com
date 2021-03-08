@@ -49,7 +49,7 @@ The most important thing WebRTC takes off your plate is the challenge of finding
     <img src="../../blog_images/learning-webrtc/webrtc-overview.jpg" alt="WebRTC overview"/>
 </div>
 
-*WebRTC Overview*
+*WebRTC Pathfinding - diagram from <a href="https://www.youtube.com/watch?v=FExZvpVvYxA" target="_blank">WebRTC Crash Course</a>*
 
 <br />
 
@@ -108,7 +108,7 @@ In the context of WebRTC, our devices pass through our routers to a STUN server.
     <img src="../../blog_images/learning-webrtc/webrtc-STUN.jpg" alt="STUN server"/>
 </div>
 
-*A STUN Server Example*
+*A STUN Server Example - diagram from <a href="https://www.youtube.com/watch?v=FExZvpVvYxA" target="_blank">WebRTC Crash Course</a>*
 
 <br />
 
@@ -126,7 +126,7 @@ STUN servers are cheap to maintain, and many are publicly available for free usa
     <img src="../../blog_images/learning-webrtc/webrtc-TURN.jpg" alt="TURN server"/>
 </div>
 
-*A TURN Server example*
+*A TURN Server example - diagram from <a href="https://www.youtube.com/watch?v=FExZvpVvYxA" target="_blank">WebRTC Crash Course</a>*
 
 <br />
 
@@ -154,8 +154,10 @@ This process can take some time, sometimes in the 10s of seconds. To get off the
 
 ***SDP***: Session Description Protocol
 
+<br />
+
 <div class="resizable-image">
-    <img src="../../blog_images/learning-webrtc/webrtc-SDP.jpg" alt="SDP example"/>
+    <img src="../../blog_images/learning-webrtc/webrtc-SDP.png" alt="SDP example"/>
 </div>
 
 *An SDP Example - basically a giant string of session information*
@@ -187,6 +189,8 @@ Once you have your SDP string, you'll need to signal it out yourself. WebRTC doe
 <div class="resizable-image">
     <img src="../../blog_images/learning-webrtc/webrtc-security.png" alt="WebRTC Data Flow Diagram"/>
 </div>
+
+*WebRTC Data Flow - diagram concept from <a href="https://bloggeek.me/sctp-data-channel/" target="_blank">BlogGeek.Me</a>*
 
 <br />
 
