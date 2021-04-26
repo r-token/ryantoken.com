@@ -22,8 +22,6 @@ struct Blog: Website {
     var imagePath: Path? { "favicon.ico" }
 }
 
-
-
 public extension Theme {
     static var dimension: Self {
         Theme(
