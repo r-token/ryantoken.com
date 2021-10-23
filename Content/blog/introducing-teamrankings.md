@@ -31,6 +31,8 @@ If you're a fan of American college football, this app is for you. TeamRankings 
     <img src="../../blog_images/introducing-teamrankings/teamrankings-compare.png" alt="TeamRankings' Compare page"/>
 </div>
 
+*screenshots courtesy of Federico Viticci and his wonderful [Apple Frames](https://www.macstories.net/ios/apple-frames-2-0-faster-lighter-and-featuring-support-for-iphone-13-ipad-mini-ipad-10-2-imac-24-macbook-air-and-multiple-languages/) shortcut*
+
 <br />
 
 Ever wonder where your team ranks in total offense, team sacks, turnover margin, and red zone defense? This is all simply glanceable information for each team instead of needing to hunt for each stat individually.
@@ -94,7 +96,7 @@ SwiftUI gives you so many features for free. Dark mode support, solid accessibil
 
 To close things out, a quick note on some of the other core technologies involved with the app.
 
-The back-end infrastructure is all AWS-based. I have a `node.js` server that handles a lot of the rankings data collection. That server throws its data into a couple different `DynamoDB` tables, and the app calls various `API Gateway` endpoints that trigger `Lambda` functions to query those DB tables. The results of those API calls return JSON that I decode into Swift structs which finally winds up inside a SwiftUI `List` in the UI.
+The back-end infrastructure is all AWS-based. I have a `node.js` server that handles a lot of the rankings data collection. That server throws its data into a couple different `DynamoDB` tables, and the app calls various `API Gateway` endpoints that trigger `Lambda` functions to query those DB tables. The results of those API calls return JSON that I decode into Swift structs which finally winds up inside a SwiftUI `List` in the UI. All of the AWS infrastructure is generated via [IaC](https://en.wikipedia.org/wiki/Infrastructure_as_code) with the [Serverless Framework](https://www.serverless.com/framework).
 
 There is no web front-end for this yet, but that is one of my goals for the app. I've been [big into Jamstack](https://www.ryantoken.com/blog/rocking-with-the-jamstack/) web development lately, and have recently been experimenting with the [Nuxt 3 beta](https://v3.nuxtjs.org/). My background with front-end web development is in [React](https://reactjs.org/), but the plan is to build the web front-end for TeamRankings with Nuxt 3 once it's out in production.
 
