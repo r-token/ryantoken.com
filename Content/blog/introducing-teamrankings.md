@@ -12,14 +12,29 @@ tags: iOS, Swift, SwiftUI
     width: 32%;
     border-radius: 5px;
 }
+
+.resizable-icon img {
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    border-radius: 20px;
+}
 </style>
 
 
 # Introducing TeamRankings
 
-Today I'm excited to debut my first new iOS app in three years: TeamRankings.
+Today I'm excited to debut my first new iOS app in three years:
 
-## App Icon Here?
+## TeamRankings
+
+<br />
+
+<div class="resizable-icon">
+    <img src="../../blog_images/introducing-teamrankings/teamrankings-icon.jpeg" alt="TeamRankings App Icon"/>
+</div>
+
+<br />
 
 If you're a fan of American college football, this app is for you. TeamRankings is the easiest way to check how your favorite teams stack up against the rest. It shows you where your team ranks in forty-seven different tracked statistics compared to the other 129 FBS teams.
 
