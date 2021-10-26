@@ -67,7 +67,7 @@ I built Outrank because I needed it. I host a college football podcast and wante
 
 The app is free with no ads. It makes me no money by default. If you enjoy Outrank, I'd love it if you left a tip or subscribed in the app, or supported my work on [Patreon](https://patreon.com/ryantoken) or [Buy Me a Coffee](https://www.buymeacoffee.com/ryantoken).
 
-Thank you for your interest in Outrank. If you have a feature request or feedback, please send an email to outrankapp@gmail.com.
+Thank you for your interest in Outrank. If you have a feature request or feedback, please [send me an email](mailto:outrankapp@gmail.com).
 
 I'll end the main post here, but there are extra details on the app and my experience building it further down for anyone interested.
 
