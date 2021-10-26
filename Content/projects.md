@@ -16,6 +16,13 @@ title: Projects
     border-radius: 5px;
     display: flex;
 }
+
+.resizable-icon img {
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    border-radius: 20px;
+}
 </style>
 
 <h3> Projects </h3>
@@ -30,11 +37,17 @@ title: Projects
 
 ## Outrank
 
+<div class="resizable-icon">
+    <img src="../../blog_images/introducing-outrank/outrank-icon.jpeg" alt="Outrank's App Icon"/>
+</div>
+
 <p>
 Outrank is an app to help you check how your favorite FBS college football teams stack up against the rest. 
 </p>
 
-Available on iOS, iPadOS, and macOS (on M1 MacBooks), it tracks forty-seven different stats for all 130 Divison One FBS teams and lets you dissect and compare them however you'd like. You can even compare two teams side-by-side to preview an intriguing matchup.
+Available on iOS, iPadOS, and macOS (on M1 Macs), it tracks forty-seven different stats for all 130 Divison One FBS teams and lets you dissect and compare them however you'd like. You can even compare two teams side-by-side to preview an intriguing matchup.
+
+<br />
 
 <div class=resizable-image>
 <a href="https://eaglecreststl.org" target="_blank"><img src="../../blog_images/introducing-outrank/outrank-rankings.png" alt="Outrank's Rankings page"/></a>
@@ -45,9 +58,15 @@ Available on iOS, iPadOS, and macOS (on M1 MacBooks), it tracks forty-seven diff
 
 The Outrank app is built with 100% <a href="https://developer.apple.com/xcode/swiftui/" target="_blank">SwiftUI</a>.
 
-On the back-end, it leverages various AWS services including <a href="https://aws.amazon.com/dynamodb/" target="_blank">DynamoDB</a>, <a href="https://aws.amazon.com/api-gateway/" target="_blank">API Gateway</a>, and <a href="https://aws.amazon.com/lambda/" target="_blank">Lambda</a>.
+On the back-end, it leverages <a href="https://developer.apple.com/icloud/cloudkit/" target="_blank">CloudKit</a> as well as various AWS services including <a href="https://aws.amazon.com/dynamodb/" target="_blank">DynamoDB</a>, <a href="https://aws.amazon.com/api-gateway/" target="_blank">API Gateway</a>, and <a href="https://aws.amazon.com/lambda/" target="_blank">Lambda</a>.
 
-<br /> 
+Read my blog post about building Outrank <a href="https://ryantoken.com/blog/introducing-outrank" target="_blank">here</a>.
+
+<br />
+
+<a href="https://itunes.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:270px;height:80px;background-size:contain;"></a>
+
+<br /> <br /> <br /> <br />
 
 ---
 
@@ -108,6 +127,10 @@ We had about three hundred users throughout the city, and heard of no incidents 
 <br /> <br />
 
 ## CatchUp for iOS
+
+<div class="resizable-icon">
+    <img src="../../about_images/catchup-icon.png" alt="CatchUp's App Icon"/>
+</div>
 
 **Featured on Brett Terpstra's <a href="https://esn.fm/systematic/218" target="_blank">Systematic</a> Podcast as one of his 'Top 3' (around 46:21)*
 

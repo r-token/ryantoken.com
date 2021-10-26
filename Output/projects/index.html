@@ -8,14 +8,23 @@
     border-radius: 5px;
     display: flex;
 }
-</style><h3> Projects </h3><p><em>What I'm currently working on in my spare time.</em></p><br /><hr><br/><h2>Outrank</h2><p>
+
+.resizable-icon img {
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    border-radius: 20px;
+}
+</style><h3> Projects </h3><p><em>What I'm currently working on in my spare time.</em></p><br /><hr><br/><h2>Outrank</h2><div class="resizable-icon">
+    <img src="../../blog_images/introducing-outrank/outrank-icon.jpeg" alt="Outrank's App Icon"/>
+</div><p>
 Outrank is an app to help you check how your favorite FBS college football teams stack up against the rest. 
-</p><p>Available on iOS, iPadOS, and macOS (on M1 MacBooks), it tracks forty-seven different stats for all 130 Divison One FBS teams and lets you dissect and compare them however you'd like. You can even compare two teams side-by-side to preview an intriguing matchup.</p><div class=resizable-image>
+</p><p>Available on iOS, iPadOS, and macOS (on M1 Macs), it tracks forty-seven different stats for all 130 Divison One FBS teams and lets you dissect and compare them however you'd like. You can even compare two teams side-by-side to preview an intriguing matchup.</p><br /><div class=resizable-image>
 <a href="https://eaglecreststl.org" target="_blank"><img src="../../blog_images/introducing-outrank/outrank-rankings.png" alt="Outrank's Rankings page"/></a>
 <a href="https://eaglecreststl.org" target="_blank"><img src="../../blog_images/introducing-outrank/outrank-detail.png" alt="Outrank's Detail page"/></a>
 <a href="https://eaglecreststl.org" target="_blank"><img src="../../blog_images/introducing-outrank/outrank-compare.png" alt="Outrank's Compare page"/></a>
 <a href="https://eaglecreststl.org" target="_blank"><img src="../../blog_images/introducing-outrank/outrank-settings.png" alt="Outrank's Settings page"/></a>
-</div><p>The Outrank app is built with 100% <a href="https://developer.apple.com/xcode/swiftui/" target="_blank">SwiftUI</a>.</p><p>On the back-end, it leverages various AWS services including <a href="https://aws.amazon.com/dynamodb/" target="_blank">DynamoDB</a>, <a href="https://aws.amazon.com/api-gateway/" target="_blank">API Gateway</a>, and <a href="https://aws.amazon.com/lambda/" target="_blank">Lambda</a>.</p><br /><hr><br/><h2>Eagle Crest STL</h2><p>
+</div><p>The Outrank app is built with 100% <a href="https://developer.apple.com/xcode/swiftui/" target="_blank">SwiftUI</a>.</p><p>On the back-end, it leverages <a href="https://developer.apple.com/icloud/cloudkit/" target="_blank">CloudKit</a> as well as various AWS services including <a href="https://aws.amazon.com/dynamodb/" target="_blank">DynamoDB</a>, <a href="https://aws.amazon.com/api-gateway/" target="_blank">API Gateway</a>, and <a href="https://aws.amazon.com/lambda/" target="_blank">Lambda</a>.</p><p>Read my blog post about building Outrank <a href="https://ryantoken.com/blog/introducing-outrank" target="_blank">here</a>.</p><br /><a href="https://itunes.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:270px;height:80px;background-size:contain;"></a><br /><br /><br /><br /><hr><br/><h2>Eagle Crest STL</h2><p>
 <a href="https://eaglecreststl.org" target="_blank">Eagle Crest STL</a> is a fully serverless web app tailor-made for the Eagle Crest HOA in St. Louis, MO.
 </p><p>It allows members and trustees to easily send messages, make requests, give announcements, view documents, and see a list of all homeowners in the HOA.</p><div>
 <a href="https://eaglecreststl.org" target="_blank"><img src="../project_images/eaglecrest-home.PNG" alt="Eagle Crest STL" style="border-radius: 5px; width: 100%;"/></a>
@@ -29,7 +38,9 @@ Outrank is an app to help you check how your favorite FBS college football teams
 <a href="https://dashingthroughtheville.com" target="_blank">Dashing Through the 'Ville</a> is a city-wide scavenger hunt held throughout Bartlesville, Oklahoma.
 </p><p>Proceeds from the event benefitted Youth and Family Services of Washington County, and it helped them raise a total of $15,000.</p><p>The web app is fully serverless – built with <a href="https://reactjs.org" target="_blank">React</a> on the front end, <a href="https://aws.amazon.com/" target="_blank">AWS</a> as the middle tier and back end, and hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a>. The AWS services used include Lambda, API Gateway, DynamoDB, SES, Cognito, Amplify, IAM, and more.</p><div>
 <a href="https://dashingthroughtheville.com" target="_blank"><img src="../project_images/dttv-website.png" alt="Dashing Through the Ville" style="border-radius: 5px; width: 100%;"/></a>
-</div><p>I was the sole developer for this project. As a volunteer, I ended up building the entire application in a span of three weeks.</p><p>We had about three hundred users throughout the city, and heard of no incidents throughout the event.</p><br /><br /><hr><br /><br /><h2>CatchUp for iOS</h2><p>*<em>Featured on Brett Terpstra's <a href="https://esn.fm/systematic/218" target="_blank">Systematic</a> Podcast as one of his 'Top 3' (around 46:21)</em></p><p>My first public-facing iOS app! First released in May of 2018, I completely rewrote it in May of 2020 using <a href="https://developer.apple.com/xcode/swiftui/" target="_blank">SwiftUI</a>, <a href="https://developer.apple.com/documentation/coredata" target="_blank">Core Data</a>, and several other improvements.</p><br /><style type="text/css">
+</div><p>I was the sole developer for this project. As a volunteer, I ended up building the entire application in a span of three weeks.</p><p>We had about three hundred users throughout the city, and heard of no incidents throughout the event.</p><br /><br /><hr><br /><br /><h2>CatchUp for iOS</h2><div class="resizable-icon">
+    <img src="../../about_images/catchup-icon.png" alt="CatchUp's App Icon"/>
+</div><p>*<em>Featured on Brett Terpstra's <a href="https://esn.fm/systematic/218" target="_blank">Systematic</a> Podcast as one of his 'Top 3' (around 46:21)</em></p><p>My first public-facing iOS app! First released in May of 2018, I completely rewrote it in May of 2020 using <a href="https://developer.apple.com/xcode/swiftui/" target="_blank">SwiftUI</a>, <a href="https://developer.apple.com/documentation/coredata" target="_blank">Core Data</a>, and several other improvements.</p><br /><style type="text/css">
 .small-resizable-image img {
     text-align: center;
     margin: auto;

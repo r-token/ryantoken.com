@@ -72,9 +72,9 @@ I'll end the main post here, but there are extra details on the app and my exper
 
 <br />
 
-# Download Link/App Store Icon
+<a href="https://itunes.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:270px;height:80px;background-size:contain;"></a>
 
-<br /> <br /> <br />
+<br /> <br /> <br /> <br /> <br /> <br />
 
 # Some Notes
 
@@ -134,6 +134,10 @@ That covers all of the big pieces I wanted to get to about this app. I have legi
 
 Thank you for reading. If you have questions, comments, feedback, feature requests, or anything else about the app, please [email me](mailto:outrankapp@gmail.com).
 
-<br />
+<br /> <br />
+
+<a href="https://itunes.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:270px;height:80px;background-size:contain;"></a>
+
+<br /> <br /> <br />
 
 **<a href="#">Back to Top</a>**
