@@ -28,22 +28,22 @@ title: Projects
 
 <br/>
 
-## TeamRankings
+## Outrank
 
 <p>
-TeamRankings is an app to help you check how your favorite FBS college football teams stack up against the rest. 
+Outrank is an app to help you check how your favorite FBS college football teams stack up against the rest. 
 </p>
 
 Available on iOS, iPadOS, and macOS (on M1 MacBooks), it tracks forty-seven different stats for all 130 Divison One FBS teams and lets you dissect and compare them however you'd like. You can even compare two teams side-by-side to preview an intriguing matchup.
 
 <div class=resizable-image>
-<a href="https://eaglecreststl.org" target="_blank"><img src="../../blog_images/introducing-teamrankings/teamrankings-rankings.png" alt="TeamRankings' Rankings page"/></a>
-<a href="https://eaglecreststl.org" target="_blank"><img src="../../blog_images/introducing-teamrankings/teamrankings-detail.png" alt="TeamRankings' Detail page"/></a>
-<a href="https://eaglecreststl.org" target="_blank"><img src="../../blog_images/introducing-teamrankings/teamrankings-compare.png" alt="TeamRankings' Compare page"/></a>
-<a href="https://eaglecreststl.org" target="_blank"><img src="../../blog_images/introducing-teamrankings/teamrankings-settings.png" alt="TeamRankings' Settings page"/></a>
+<a href="https://eaglecreststl.org" target="_blank"><img src="../../blog_images/introducing-outrank/outrank-rankings.png" alt="Outrank's Rankings page"/></a>
+<a href="https://eaglecreststl.org" target="_blank"><img src="../../blog_images/introducing-outrank/outrank-detail.png" alt="Outrank's Detail page"/></a>
+<a href="https://eaglecreststl.org" target="_blank"><img src="../../blog_images/introducing-outrank/outrank-compare.png" alt="Outrank's Compare page"/></a>
+<a href="https://eaglecreststl.org" target="_blank"><img src="../../blog_images/introducing-outrank/outrank-settings.png" alt="Outrank's Settings page"/></a>
 </div>
 
-The TeamRankings app is built with 100% <a href="https://developer.apple.com/xcode/swiftui/" target="_blank">SwiftUI</a>.
+The Outrank app is built with 100% <a href="https://developer.apple.com/xcode/swiftui/" target="_blank">SwiftUI</a>.
 
 On the back-end, it leverages various AWS services including <a href="https://aws.amazon.com/dynamodb/" target="_blank">DynamoDB</a>, <a href="https://aws.amazon.com/api-gateway/" target="_blank">API Gateway</a>, and <a href="https://aws.amazon.com/lambda/" target="_blank">Lambda</a>.
 
