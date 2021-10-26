@@ -17,7 +17,7 @@ struct Blog: Website {
     var url = URL(string: "https://ryantoken.com")!
     var title = "ryantoken.com"
     var name = "Ryan Token"
-    var description = "I'm a 💻 programmer, 🎙️ podcaster, 📝 writer, 🏈🏀 sports fan, and  enthusiast."
+    var description = "I'm a 💻 developer, 🎙️ podcaster, 📝 writer, 🏈🏀 sports fan, and 🤓 tech nerd."
     var language: Language { .english }
     var imagePath: Path? { "favicon.ico" }
 }

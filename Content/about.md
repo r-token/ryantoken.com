@@ -13,7 +13,7 @@ description: About Ryan
 
 Hi, I'm Ryan. You can find me writing <a href="https://github.com/r-token" target="_blank">code</a>, running my <a href="https://thegoldenhurricast.com" target="_blank">podcast</a>, or watching my <a href="https://tulsahurricane.com" target="_blank">team</a>.
 
-My latest projects include <a href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank">Outrank for iOS, iPadOS, and macOS</a>, <a href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank">CatchUp for iOS</a>, and <a href="https://thegoldenhurricast.com" target="_blank">The Golden Hurricast</a>.
+My latest projects include <a href="https://apps.apple.com/us/app/outrank/id1588983785" target="_blank">Outrank for iOS, iPadOS, and macOS</a>, <a href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank">CatchUp for iOS</a>, and <a href="https://thegoldenhurricast.com" target="_blank">The Golden Hurricast</a>.
 
 <br />
 
@@ -28,7 +28,7 @@ My latest projects include <a href="https://apps.apple.com/us/app/catchup-keep-i
 
 <div>
 
-	<a class="resizable-image" href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../blog_images/introducing-outrank/outrank-icon.jpeg" alt="Outrank" style="margin-right: 10px;"/></a>
+	<a class="resizable-image" href="https://apps.apple.com/us/app/outrank/id1588983785" target="_blank"><img src="../blog_images/introducing-outrank/outrank-icon.jpeg" alt="Outrank" style="margin-right: 10px;"/></a>
 	
 	<a class="resizable-image" href="https://apps.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank"><img src="../about_images/catchup-icon.png" alt="CatchUp" style="margin-right: 10px;"/></a>
 

@@ -27,7 +27,7 @@ title: Projects
 
 <h3> Projects </h3>
 
-*What I'm currently working on in my spare time.*
+*What I'm currently working on in my spare time. You can support my work on <a href="https://patreon.com/ryantoken" target="_blank">Patreon</a> or <a href="https://www.buymeacoffee.com/ryantoken" target="_blank">Buy Me a Coffee</a>.*
 
 <br />
 
@@ -38,7 +38,7 @@ title: Projects
 ## Outrank
 
 <div class="resizable-icon">
-    <img src="../../blog_images/introducing-outrank/outrank-icon.jpeg" alt="Outrank's App Icon"/>
+    <a href="https://apps.apple.com/us/app/outrank/id1588983785" target="_blank"><img src="../../blog_images/introducing-outrank/outrank-icon.jpeg" alt="Outrank's Icon"/></a>
 </div>
 
 <p>
@@ -50,10 +50,10 @@ Available on iOS, iPadOS, and macOS (on M1 Macs), it tracks forty-seven differen
 <br />
 
 <div class=resizable-image>
-<a href="https://eaglecreststl.org" target="_blank"><img src="../../blog_images/introducing-outrank/outrank-rankings.png" alt="Outrank's Rankings page"/></a>
-<a href="https://eaglecreststl.org" target="_blank"><img src="../../blog_images/introducing-outrank/outrank-detail.png" alt="Outrank's Detail page"/></a>
-<a href="https://eaglecreststl.org" target="_blank"><img src="../../blog_images/introducing-outrank/outrank-compare.png" alt="Outrank's Compare page"/></a>
-<a href="https://eaglecreststl.org" target="_blank"><img src="../../blog_images/introducing-outrank/outrank-settings.png" alt="Outrank's Settings page"/></a>
+<a href="https://apps.apple.com/us/app/outrank/id1588983785" target="_blank"><img src="../../blog_images/introducing-outrank/outrank-rankings.png" alt="Outrank's Rankings page"/></a>
+<a href="https://apps.apple.com/us/app/outrank/id1588983785" target="_blank"><img src="../../blog_images/introducing-outrank/outrank-detail.png" alt="Outrank's Detail page"/></a>
+<a href="https://apps.apple.com/us/app/outrank/id1588983785" target="_blank"><img src="../../blog_images/introducing-outrank/outrank-compare.png" alt="Outrank's Compare page"/></a>
+<a href="https://apps.apple.com/us/app/outrank/id1588983785" target="_blank"><img src="../../blog_images/introducing-outrank/outrank-settings.png" alt="Outrank's Settings page"/></a>
 </div>
 
 The Outrank app is built with 100% <a href="https://developer.apple.com/xcode/swiftui/" target="_blank">SwiftUI</a>.
@@ -64,7 +64,7 @@ Read my blog post about building Outrank <a href="https://ryantoken.com/blog/int
 
 <br />
 
-<a href="https://itunes.apple.com/us/app/catchup-keep-in-touch/id1358023550" target="_blank" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:270px;height:80px;background-size:contain;"></a>
+<a href="https://apps.apple.com/us/app/outrank/id1588983785" target="_blank" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:270px;height:80px;background-size:contain;"></a>
 
 <br /> <br /> <br /> <br />
 
@@ -126,7 +126,7 @@ We had about three hundred users throughout the city, and heard of no incidents 
 
 <br /> <br />
 
-## CatchUp for iOS
+## CatchUp - Keep in Touch
 
 <div class="resizable-icon">
     <img src="../../about_images/catchup-icon.png" alt="CatchUp's App Icon"/>
