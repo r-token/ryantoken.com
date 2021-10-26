@@ -60,7 +60,7 @@ The Outrank app is built with 100% <a href="https://developer.apple.com/xcode/sw
 
 On the back-end, it leverages <a href="https://developer.apple.com/icloud/cloudkit/" target="_blank">CloudKit</a> as well as various AWS services including <a href="https://aws.amazon.com/dynamodb/" target="_blank">DynamoDB</a>, <a href="https://aws.amazon.com/api-gateway/" target="_blank">API Gateway</a>, and <a href="https://aws.amazon.com/lambda/" target="_blank">Lambda</a>.
 
-Read my blog post about building Outrank <a href="https://ryantoken.com/blog/introducing-outrank" target="_blank">here</a>.
+You can follow <a href="https://twitter.com/OutrankApp" target="_blank">Outrank on Twitter</a>, and you can read my blog post about building Outrank <a href="https://ryantoken.com/blog/introducing-outrank" target="_blank">here</a>.
 
 <br />
 
