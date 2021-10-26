@@ -1,7 +1,7 @@
 ---
 date: 2020-05-05 20:00
-description: Ryan Token | Privacy Policy
-title: Ryan Token | Privacy Policy
+description: Privacy Policy
+title: Privacy Policy
 ---
 
 <h3> Privacy Policy </h3>

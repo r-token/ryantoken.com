@@ -1,7 +1,7 @@
 ---
 date: 2021-10-26 12:00
-description: Ryan Token | Terms of Use
-title: Ryan Token | Terms of Use
+description: Terms of Use
+title: Terms of Use
 ---
 
 <h3> Terms of Use </h3>
