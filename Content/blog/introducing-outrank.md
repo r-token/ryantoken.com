@@ -1,5 +1,5 @@
 ---
-date: 2021-10-23 8:00
+date: 2021-10-26 8:00
 title: Introducing Outrank
 description: Debuting about the new app, and my experience building it.
 tags: iOS, Swift, SwiftUI
@@ -58,7 +58,7 @@ Want to preview the most intriguing matchups of the week? There's a feature for 
 Other features include: 
 
 * Widgets to show a team's top four and bottom four stats
-* The ability to set your favorite teams
+* The ability to set your favorite teams and watch them sync seamlessly between Apple devices
 * A UI that's flexible enough to extend to iPadOS and macOS apps (for M1 MacBooks)
 * Tip jar and subscription options
 
@@ -69,6 +69,8 @@ The app is free with no ads. It makes me no money by default. If you enjoy Outra
 Thank you for your interest in Outrank. If you have a feature request or feedback, please send an email to outrankapp@gmail.com.
 
 I'll end the main post here, but there are extra details on the app and my experience building it further down for anyone interested.
+
+<br />
 
 # Download Link/App Store Icon
 
@@ -112,6 +114,8 @@ SwiftUI gives you so many features for free. Dark mode support, solid accessibil
 
 To close things out, a quick note on some of the other core technologies involved with the app.
 
+Syncing favorite teams between Apple devices happens exclusively with [CoreData](https://developer.apple.com/documentation/coredata) and [CloudKit](https://developer.apple.com/icloud/cloudkit/), which was surprisingly simple to set up.
+
 The back-end infrastructure is all AWS-based. I have a `node.js` server that handles a lot of the rankings data collection. That server throws its data into a couple different `DynamoDB` tables, and the app calls various `API Gateway` endpoints that trigger `Lambda` functions to query those DB tables. The results of those API calls return JSON that I decode into Swift structs which finally winds up inside a SwiftUI `List` in the UI. All of the AWS infrastructure is generated via [IaC](https://en.wikipedia.org/wiki/Infrastructure_as_code) with the [Serverless Framework](https://www.serverless.com/framework).
 
 There is no web front-end for this yet, but that is one of my goals for the app. I've been [big into Jamstack](https://www.ryantoken.com/blog/rocking-with-the-jamstack/) web development lately, and have recently been experimenting with the [Nuxt 3 beta](https://v3.nuxtjs.org/). My background with front-end web development is in [React](https://reactjs.org/), but the plan is to build the web front-end for Outrank with Nuxt 3 once it's out in production.
@@ -120,13 +124,13 @@ There is no web front-end for this yet, but that is one of my goals for the app.
 
 ## A Quick Note on Privacy
 
-I collect/store *none* of your data. Literally 0. I have no interest in any of it, so let's put that to bed right now.
+I collect/store *none* of your data. Literally 0. I have no interest in any of it, so let's put that to bed right now. You can read my [Privacy Policy](https://ryantoken.com/privacy-policy) and [Terms of Use](https://ryantoken.com/terms-of-use) for more information.
 
 <br />
 
 ## Signing Off
 
-That covers all of the big pieces I wanted to get to about this app. I have legitimately had a very fun time building this, and (95% of the time) SwiftUI continues to be a true joy to work with.
+That covers all of the big pieces I wanted to get to about this app. I have legitimately had a wonderful time building this, and (95% of the time) SwiftUI continues to be a true joy to work with.
 
 Thank you for reading. If you have questions, comments, feedback, feature requests, or anything else about the app, please [email me](mailto:outrankapp@gmail.com).
 

@@ -1,7 +1,7 @@
 ---
 date: 2020-05-05 20:00
-description: CatchUp – Keep in Touch | Privacy Policy
-title: CatchUp – Keep in Touch | Privacy Polilcy
+description: Ryan Token | Privacy Policy
+title: Ryan Token | Privacy Policy
 ---
 
 <h3> Privacy Policy </h3>
