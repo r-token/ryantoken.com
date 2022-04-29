@@ -23,6 +23,15 @@ tags: iOS, Swift, SwiftUI
 
 
 # Introducing Outrank
+October 26, 2021
+
+*Discussing the new app and my experience building it.*
+
+<br />
+
+---
+
+<br />
 
 Today I'm excited to debut my first new iOS app in three years:
 

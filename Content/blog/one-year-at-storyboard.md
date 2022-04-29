@@ -16,6 +16,15 @@ tags: Job, Reflections
 
 
 # One Year at Storyboard
+April 29, 2022
+
+*Reflections on my first year and a look at what's to come.*
+
+<br />
+
+---
+
+<br /> <br />
 
 <div class="resizable-image">
     <img src="../../blog_images/one-year-at-storyboard/sb.jpeg" alt="Storyboard logo"/>
