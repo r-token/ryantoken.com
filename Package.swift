@@ -15,7 +15,7 @@ let package = Package(
             from: "0.9.0")
     ],
     targets: [
-        .target(
+        .executableTarget(
             name: "RyantokenCom",
             dependencies: ["Publish"]
         )
