@@ -1,6 +1,5 @@
 ---
 title: About
-id: About
 date: 2021-01-27 22:44
 description: About Ryan
 ---
