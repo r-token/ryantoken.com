@@ -45,17 +45,15 @@ What brought me to Storyboard was five-fold:
 
 Storyboard is the app for private podcasts.
 
-Say that a company wants to start a private, internal podcast only for its employees. They want to interview the leadership team, send out weekly company updates, and roll out various forms of training in podcast form. There could be several hurdles to overcome. Secure distribution likely being the biggest one.
+Imagine a company wants to start a private, internal podcast for its employees. They want to interview the leadership team, send out weekly company updates, and roll out various forms of training in podcast form. There could be several hurdles to overcome. Secure distribution likely being the biggest one.
 
-Many companies will do a great job recording an episode, but just post the .mp3 file on an internal SharePoint site. Not ideal. You need to be on the company network, you need to find the SharePoint URL every time you want to listen to an episode, etc...
+Many companies will do a great job recording an episode, but then post the .mp3 file on an internal SharePoint site and include the link in some big company newsletter along with fifty other things. Not ideal. You need to open the email, you need to be on the company network, you need to find the SharePoint URL every time you want to listen to an episode, the list goes on. I've seen this scenario first hand.
 
-Storyboard solves this problem. If the company uses Storyboard to record/distribute its podcasts, you simply download the Storyboard app and your company's podcast episodes are pushed to you like any other podcast player. These episodes are secured via Single Sign On (SSO) and only accessible by the employees.
-
-I've seen this scenario first hand, and Storyboard is a solution I believe in.
+Storyboard solves this problem. If the company uses Storyboard to record/distribute its podcasts, the company's podcast episodes are pushed to you like any other podcast player. These episodes are secured via Single Sign On (SSO) and only accessible by active employees.
 
 <h4 style="font-size: 20px">2. My personal interests</h4>
 
-Podcasts are just cool. I'd argue that I've gotten more value out of listening to podcasts than any other form of media. Some of my favorites include Accidental Tech Podcast, Big Technology Podcast, The Cloudcast, Cortex, How I Built This, Planet Money, Screaming in the Cloud, Software Engineering Daily, and Underdog Dynasty.
+Podcasts are just cool. I'd argue that I've gotten more value out of listening to podcasts than any other form of media. Some of my favorites include Accidental Tech Podcast, Big Technology Podcast, How I Built This, and Startups For the Rest of Us.
 
 As you might know, I also run <a href="https://thegoldenhurricast.com" target="_blank">my own podcast</a> about athletics at The University of Tulsa. I love listening to and creating podcasts. The idea that I could actively help bring this medium to the enterprise is extremely exciting.
 
